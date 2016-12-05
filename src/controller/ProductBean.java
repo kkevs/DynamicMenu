@@ -12,17 +12,17 @@ public class ProductBean {
 	private Category category = new Category();
 
 	public ProductBean() {
-		formPath = "hakkimda.xhtml";
+		formPath = "home.xhtml";
 	}
 
 	public void chooseCategory(int categoryId) {
 
 		System.out.println("safas");
-		formPath = "product_masters.xhtml";
+		formPath = "product.xhtml";
 
 		switch (categoryId) {
 		case 3:
-			formPath = "hakkimda.xhtml";
+			formPath = "home.xhtml";
 			break;
 
 		}
